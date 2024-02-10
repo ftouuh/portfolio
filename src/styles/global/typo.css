@@ -1,0 +1,16 @@
+/* Font Family */
+:root {
+    --title-font: "Poppins", sans-serif;
+    --text-font: "Mulish", sans-serif;
+  }
+  
+  /* Font Size */
+  :root {
+    --text-size: 1.7rem;
+    --hero-size: 5.5rem;
+    --hero-text-size: 1.8rem;
+    --headings-size: 2.5rem;
+  }
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap');

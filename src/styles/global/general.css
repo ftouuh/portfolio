@@ -1,0 +1,35 @@
+@import "./colors.css";
+@import "./typo.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+html {
+  font-size: 62.5%;
+  
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--title-font);
+  position: relative;
+  
+}
+
+.container {
+  max-width: 107rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+
+}
+
+/* scroll bar */
+
+
+[data-aos] {
+  z-index: none;
+}
