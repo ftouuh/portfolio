@@ -30,6 +30,11 @@ function useDivHeightSync() {
 function Home() {
   const div2Height = useDivHeightSync();
 
+  useEffect(() => {
+
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div>
