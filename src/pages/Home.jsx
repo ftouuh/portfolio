@@ -7,44 +7,49 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import '../styles/global/colors.css';
 
-window.onload = function() {
-    var div1 = document.querySelector('.hero');
-    var div2 = document.querySelector('.bubbles');
-    updateDiv2Height(div1, div2);
-  
-    window.addEventListener('resize', function() {
-      updateDiv2Height(div1, div2);
-    });
-  };
-  
-  function updateDiv2Height(div1, div2) {
-    var height = div1.clientHeight;
-    div2.style.height = height + 'px';
-  }
+function useDivHeightSync() {
+  const [div2Height, setDiv2Height] = useState(0);
+
+  useEffect(() => {
+    function handleResize() {
+      const div1Height = document.querySelector('.hero').clientHeight;
+      setDiv2Height(div1Height);
+    }
+
+    handleResize(); // Initial call to set height
+    window.addEventListener('resize', handleResize);
+    
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  return div2Height;
+}
+
 function Home() {
+  const div2Height = useDivHeightSync();
 
-    return (
-        <>
-        
-            <div>
-                <div class="bubbles">
-                    <div class="bubble"></div>
-                    <div class="bubble"></div>
-                    <div class="bubble"></div>
-                    <div class="bubble"></div>
-                    <div class="bubble"></div>
-                    <div class="bubble"></div>
-                </div>
-                <Navbar />
-                <Hero />
-                <AboutMe />
-                <Projects />
-                <Contact />
-                <Footer />
-            </div>
-
-        </>
-    );
+  return (
+    <>
+      <div>
+        <div className="bubbles" style={{ height: `${div2Height}px` }}>
+          <div className="bubble"></div>
+          <div className="bubble"></div>
+          <div className="bubble"></div>
+          <div className="bubble"></div>
+          <div className="bubble"></div>
+          <div className="bubble"></div>
+        </div>
+        <Navbar />
+        <Hero />
+        <AboutMe />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
+    </>
+  );
 }
 
 export default Home;

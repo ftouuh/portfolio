@@ -6,13 +6,12 @@ import '../styles/comps/hero.css'
 
 import { useEffect } from "react";
 
-
 const skillsIcons = [
   {
     img: "https://skillicons.dev/icons?i=html,css",
     id: 1,
   },
-  { 
+  {
     img: "https://skillicons.dev/icons?i=js,react",
     id: 2,
   },
@@ -21,7 +20,7 @@ const skillsIcons = [
     id: 3,
   },
   {
-    img: "https://skillicons.dev/icons?i=nextjs,php",
+    img: "https://skillicons.dev/icons?i=java,spring",
     id: 4,
   }
 ];
@@ -30,7 +29,7 @@ export default function Hero() {
 
   useEffect(() => {
 
-    AOS.init({duration :1500})
+    AOS.init({ duration: 1500 })
   })
 
   return (
@@ -38,9 +37,9 @@ export default function Hero() {
       <section id="home" className="hero">
         <div className="container">
           <div className="content" data-aos='fade-up'>
-            <div className="hero-main"  style={{zIndex:200}}>
+            <div className="hero-main" style={{ zIndex: 200 }}>
               <div className="hero-text">
-                <h1>Full Stack <br/> Web Developer</h1>
+                <h1>Full Stack <br /> Web Developer</h1>
                 <p>
                   Hi, I'm Ftouh Zayd. A passionate Full Stack Web Developement Trainee
                   based in Tetouan, Morocco. 📍
@@ -50,7 +49,7 @@ export default function Hero() {
                     aria-label="linkedin"
                     rel="noreferrer"
                     target="_blank"
-                    href=""
+                    href="https://www.linkedin.com/in/zayd-ftouh/"
                   >
                     <IconBrandLinkedin width={32} height={32} />
                   </a>
@@ -58,7 +57,7 @@ export default function Hero() {
                     aria-label="github"
                     rel="noreferrer"
                     target="_blank"
-                    href=""
+                    href="https://github.com/ftouuh"
                   >
                     <IconBrandGithub width={32} height={32} />
                   </a>
@@ -67,7 +66,6 @@ export default function Hero() {
               <div className="hero-img">
               </div>
             </div>
-
             {/*  */}
             <div className="skills">
               <p>Tech Stack</p>
