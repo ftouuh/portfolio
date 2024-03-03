@@ -14,7 +14,7 @@ export default function Footer() {
                 aria-label="linkedin"
                 target="_blank"
                 rel="noreferrer"
-                href=""
+                href="https://www.linkedin.com/in/zayd-ftouh/"
               >
                 <IconBrandLinkedin width={30} height={30} />
               </a>
@@ -22,7 +22,7 @@ export default function Footer() {
                 aria-label="github"
                 target="_blank"
                 rel="noreferrer"
-                href=""
+                href="https://github.com/ftouuh"
               >
                 <IconBrandGithub width={30} height={30} />
               </a>
