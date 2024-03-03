@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="content" data-aos='fade-up'>
             <div className="hero-main" style={{ zIndex: 200 }}>
               <div className="hero-text">
-                <h1>HAHA Stack <br /> Web Developer</h1>
+                <h1>Full Stack <br /> Web Developer</h1>
                 <p>
                   Hi, I'm Ftouh Zayd. A passionate Full Stack Web Developement Trainee
                   based in Tetouan, Morocco. 📍
