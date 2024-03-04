@@ -42,9 +42,9 @@ footer h3 {
 .footerc__socials a {
   font-size: 2.3rem;
   color: white;
+  transition: 1s all ;
 }
 
 .footerc__socials a:hover {
-  transform: scale(1.2);
-  transition: all 0.2s ease-in-out;
+  color: var(--header-color);
 }
