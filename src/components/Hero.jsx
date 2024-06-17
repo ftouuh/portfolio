@@ -8,20 +8,8 @@ import { useEffect } from "react";
 
 const skillsIcons = [
   {
-    img: "https://skillicons.dev/icons?i=html,css",
+    img: "https://skillicons.dev/icons?i=ae,pr",
     id: 1,
-  },
-  {
-    img: "https://skillicons.dev/icons?i=js,react",
-    id: 2,
-  },
-  {
-    img: "https://skillicons.dev/icons?i=mysql,mongodb",
-    id: 3,
-  },
-  {
-    img: "https://skillicons.dev/icons?i=java,spring",
-    id: 4,
   }
 ];
 
@@ -39,28 +27,12 @@ export default function Hero() {
           <div className="content" data-aos='fade-up'>
             <div className="hero-main" style={{ zIndex: 200 }}>
               <div className="hero-text">
-                <h1>Full Stack <br /> Web Developer</h1>
+                <h1>Professional <br /> Video Editor</h1>
                 <p>
-                  Hi, I'm Ftouh Zayd. A passionate Full Stack Web Developement Trainee
+                  Hi, I'm Ftouh Zayd. A passionate Video Editor
                   based in Tetouan, Morocco. 📍
                 </p>
                 <span>
-                  <a
-                    aria-label="linkedin"
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/zayd-ftouh/"
-                  >
-                    <IconBrandLinkedin width={32} height={32} />
-                  </a>
-                  <a
-                    aria-label="github"
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://github.com/ftouuh"
-                  >
-                    <IconBrandGithub width={32} height={32} />
-                  </a>
                 </span>
               </div>
               <div className="hero-img">
@@ -68,7 +40,7 @@ export default function Hero() {
             </div>
             {/*  */}
             <div className="skills">
-              <p>Tech Stack</p>
+              <p>I use</p>
               <div className="logos">
                 <ul>
                   {skillsIcons.map((icon) => (
