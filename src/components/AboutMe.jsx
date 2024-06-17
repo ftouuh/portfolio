@@ -18,15 +18,12 @@ export default function AboutMe() {
             <div className="text-side">
               <h3>About me</h3>
               <h4>
-                Full Stack - Web Developer <br /> based in Tetouan, Morocco 📍
+                Professional Video Editor <br /> based in Tetouan, Morocco 📍
               </h4>
               <p>
-                Hey, my name is Zayd, and I'm a Full Stack Web Developer. My passion
-                is to create and develop great websites for my users.
+                Hey, my name is Zayd, and I make cool videos for cool people.
                 <br />
                 <br />
-                My main stack currently is React/Next.js in combination with
-                MongoDB or MySQL.
               </p>
             </div>
           </div>
