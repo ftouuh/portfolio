@@ -8,10 +8,10 @@ export default function Contact() {
           <div className="contact__content">
             <div className="contact__title">
               <p>contact</p>
-              <h3>Don't be shy! Hit me up! 👇</h3>
+              <h3>Don't be shy! Hit us up! 👇</h3>
             </div>
             <div className="contact__icons">
-              <div className="contact__icon-box">
+{/*               <div className="contact__icon-box">
                 <span>
                    <IconMapSearch width={30} height={30} />
                 </span>
@@ -19,7 +19,7 @@ export default function Contact() {
                   <h3>Location</h3>
                   <p>Tetouan, Morocco</p>
                 </div>
-              </div>
+              </div> */}
 
               <div className="contact__icon-box">
                 <span>
