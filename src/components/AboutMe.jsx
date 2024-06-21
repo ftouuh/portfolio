@@ -9,7 +9,7 @@ export default function AboutMe() {
   })
   return (
     <>
-      <section className="about" id="about">
+{/*       <section className="about" id="about">
         <div className="container">
           <div className="about-content" data-aos='fade-up'>
           <div className="img-side">
@@ -28,7 +28,7 @@ export default function AboutMe() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
