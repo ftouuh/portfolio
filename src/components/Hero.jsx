@@ -29,8 +29,7 @@ export default function Hero() {
               <div className="hero-text">
                 <h1>Professional <br /> Video Editor</h1>
                 <p>
-                  Hi, I'm Ftouh Zayd. A passionate Video Editor
-                  based in Tetouan, Morocco. 📍
+                  Hi, We help content creators and businesses market through social media organically
                 </p>
                 <span>
                 </span>
@@ -39,18 +38,6 @@ export default function Hero() {
               </div>
             </div>
             {/*  */}
-            <div className="skills">
-              <p>I use</p>
-              <div className="logos">
-                <ul>
-                  {skillsIcons.map((icon) => (
-                    <li key={icon.id}>
-                      <img src={icon.img} alt="skill-icon" />
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </section>
