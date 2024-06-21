@@ -27,7 +27,7 @@ export default function Hero() {
           <div className="content" data-aos='fade-up'>
             <div className="hero-main" style={{ zIndex: 200 }}>
               <div className="hero-text">
-                <h1>Professional <br /> Video Editor</h1>
+                <h1>Welcome to <br /> Scalezare</h1>
                 <p>
                   Hi, We help content creators and businesses market through social media organically
                 </p>
