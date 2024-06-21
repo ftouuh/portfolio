@@ -77,7 +77,7 @@ export default function Navbar() {
     <>
       <nav>
         <h1 onClick={pageUp} className="logo" data-aos='fade-down'>
-          ftouh
+          Scalezare
         </h1>
         <ul className='desk' data-aos='fade-down'>
           {navlinks.map((item) => (
