@@ -28,7 +28,7 @@ export default function Contact() {
                 <div className="contact__info">
                   <h3>Mail</h3>
                   <a href="mailto:stefan.topallovic@gmail.com">
-                    contact@scalezare.com
+                    zaydftouh@outlook.com
                   </a>
                 </div>
               </div>
